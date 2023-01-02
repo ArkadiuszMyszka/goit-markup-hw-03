@@ -1,0 +1,222 @@
+:root {
+    --brand-color-background-overall: #E5E5E5;
+    --brand-color-font-overall: #212121;
+    --brand-color-hover: #2196F3;
+    --brand-color-background: #FFFFFF;
+    --brand-color-titleleft: #2196F3;
+    --brand-color-titleright: #000;
+    --brand-color-contact-header: #757575;
+    --brand-color-address-footer: #FFFFFF;
+    --brand-color-background-footer: #2F303A;
+    --brand-color-contact-footer: rgba(255, 255, 255, 0.6);
+    --brand-color-background-main-top: #2F303A;
+    --brand-color-main-top-text: #FFFFFF;
+    --brand-color-article-p: #757575;
+    --brand-color-main-button-boxshadow: rgba(0, 0, 0, 0.15);
+    --brand-color-main-bottom-background:#F5F4FA;
+    --brand-color-port-button-background:#F5F4FA;
+    --brand-color-port-button-hover:#FFFFFF;
+    --brand-color-port-button-hover-boxshadow1: rgba(0, 0, 0, 0.1);
+    --brand-color-port-button-hover-boxshadow2: rgba(0, 0, 0, 0.08);
+    --brand-color-port-button-hover-boxshadow3: rgba(0, 0, 0, 0.12);
+    --brand-color-port-central-border:#EEEEEE;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--brand-color-background-overall);
+    color:var(--brand-color-font-overall);
+}
+.header-main {
+    background-color: var(--brand-color-background);
+}
+.title-name-header {
+    text-decoration: none;
+}
+
+.title-side-left {
+    font-family: 'Raleway', sans-serif;
+    color: var(--brand-color-titleleft);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.1738;
+    letter-spacing: 3%;}
+
+.title-side-right {
+        font-family: 'Raleway', sans-serif;
+        color: var(--brand-color-titleright);
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.383;
+        letter-spacing: 3%;}
+.title-header a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1428;
+        letter-spacing: 0.02em;
+        
+        text-decoration: none;
+        }
+/*.title-header a:hover, .title-header a:focus, {
+color: var(--brand-color-hover);
+}
+*/
+.mail-header {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-contact-header);
+}
+/*
+.mail-header:hover, .mail-header:focus, .tel-header:hover, .tel-header:focus {
+color: var(--brand-color-hover);
+}
+*/
+.link-active-color:hover, .link-active-color:focus {
+    color: var(--brand-color-hover);
+}
+.active-page-color-highlighting {
+    color: var(--brand-color-hover);
+}
+.tel-header {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1428;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: var(--brand-color-contact-header);
+}
+.title-name-footer {
+        text-decoration: none;
+}
+.address-footer {
+        font-size: 14px;
+        line-height: 1.1714;
+        letter-spacing: 0.03em;
+        color: var(--brand-color-address-footer);
+}
+.footer-main {
+        background-color: var(--brand-color-background-footer);
+}
+.tel-footer {
+        font-size: 14px;
+        line-height: 1.1714;
+    text-decoration: none;
+        letter-spacing: 0.03em;
+        color: var(--brand-color-contact-footer);
+}
+.mail-footer {
+        font-size: 14px;
+        line-height: 1.1714;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        color: var(--brand-color-contact-footer);
+}
+/*
+.mail-footer:hover, .mail-footer:focus, .tel-footer:hover, .tel-footer:focus {
+color: var(--brand-color-hover);
+}*/
+.main-top-background {
+        background-color: var(--brand-color-background-main-top);
+}
+.text-mainpage {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.364;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--brand-color-main-top-text);
+}
+.button-mainpage {
+        cursor: pointer;
+        background-color: var(--brand-color-hover);
+        box-shadow: 0px 4px 4px var(--brand-color-main-button-boxshadow);
+        border-radius: 4px;
+}
+.article-mainpage h3 {
+font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+   
+}
+
+.article-mainpage p {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-article-p);
+}
+.main-central h2 {
+        font-size: 36px;
+        line-height: 1.167;
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+}
+.main-bottom {   
+        background-color: var(--brand-color-main-bottom-background);
+}
+.main-bottom h2 {
+
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.main-bottom h3 {
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.188;
+        text-align: center;
+        letter-spacing: 0.03em;
+       
+}
+.main-bottom p {    
+        font-size: 16px;
+        line-height: 1.188;
+            text-align: center;
+        letter-spacing: 0.03em;
+            color: var(--brand-color-article-p);
+}
+.main-bottom li {
+    background-color: var(--brand-color-background);
+}
+.button-portfolio button {
+    cursor: pointer;
+    background-color: var(--brand-color-port-button-background);
+    border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        text-align: center;
+        letter-spacing: 0.03em;
+       
+}
+.button-portfolio button:hover,.button-portfolio button:focus {
+    background-color: var(--brand-color-hover);
+    color: var(--brand-color-port-button-hover);
+            box-shadow: 0px 3px 1px var(--brand-color-port-button-hover-boxshadow1), 0px 1px 2px var(--brand-color-port-button-hover-boxshadow2), 0px 2px 2px var(--brand-color-port-button-hover-boxshadow3);
+        border-radius: 4px;
+}
+.portfolio-central li {
+background-color: var(--brand-color-background);
+    border: 1px solid var(--brand-color-port-central-border);
+}
+.portfolio-central h3 {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+}
+.portfolio-central p {
+      font-size: 16px;
+    line-height: 1.875;
+        letter-spacing: 0.03em;
+    color: var(--brand-color-article-p);
+}
