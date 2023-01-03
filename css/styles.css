@@ -28,15 +28,23 @@ body {
     margin: 0;
 }
 .container {
+    
     width: 1200px;
     margin: 0 auto;
     }
+.header-box{
+    display: block;
+    background-color: var(--brand-color-background);
+   
+    
+}
 
 .header-main {
     background-color: var(--brand-color-background);
     display:flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
     
 }
 .title-header {
@@ -110,6 +118,10 @@ body {
 .active-page-color-highlighting {
     color: var(--brand-color-hover);
 }
+ .footer-box {
+     display: block;
+     background-color: var(--brand-color-background-footer);
+ }
 .title-name-footer {
         text-decoration: none;
 }
