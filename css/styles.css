@@ -25,14 +25,40 @@ body {
     font-family: 'Roboto', sans-serif;
     background: var(--brand-color-background-overall);
     color:var(--brand-color-font-overall);
+    margin: 0;
 }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    }
+
 .header-main {
     background-color: var(--brand-color-background);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title-header {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
 }
 .title-name-header {
     text-decoration: none;
+    
+    
 }
-
+.header-link-name{
+    margin-right: 93px;
+}
+.header-link {
+    margin-right: 46px;
+}
+.header-link-contact {
+    margin-left:50px;
+}
 .title-side-left {
     font-family: 'Raleway', sans-serif;
     color: var(--brand-color-titleleft);
@@ -56,10 +82,11 @@ body {
         
         text-decoration: none;
         }
-/*.title-header a:hover, .title-header a:focus, {
-color: var(--brand-color-hover);
+.header-contacts {
+    display: flex;
+    list-style: none;
+    
 }
-*/
 .mail-header {
     text-decoration: none;
     font-weight: 500;
@@ -68,17 +95,6 @@ color: var(--brand-color-hover);
     letter-spacing: 0.02em;
     color: var(--brand-color-contact-header);
 }
-/*
-.mail-header:hover, .mail-header:focus, .tel-header:hover, .tel-header:focus {
-color: var(--brand-color-hover);
-}
-*/
-.link-active-color:hover, .link-active-color:focus {
-    color: var(--brand-color-hover);
-}
-.active-page-color-highlighting {
-    color: var(--brand-color-hover);
-}
 .tel-header {
         font-weight: 500;
         font-size: 14px;
@@ -86,6 +102,13 @@ color: var(--brand-color-hover);
         letter-spacing: 0.02em;
         text-decoration: none;
         color: var(--brand-color-contact-header);
+}
+
+.link-active-color:hover, .link-active-color:focus {
+    color: var(--brand-color-hover);
+}
+.active-page-color-highlighting {
+    color: var(--brand-color-hover);
 }
 .title-name-footer {
         text-decoration: none;
@@ -98,6 +121,17 @@ color: var(--brand-color-hover);
 }
 .footer-main {
         background-color: var(--brand-color-background-footer);
+}
+.footer-list {
+    list-style: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-link-name {
+    margin-bottom: 20px;
+}
+.footer-link {
+    margin-bottom: 9px;
 }
 .tel-footer {
         font-size: 14px;
@@ -141,6 +175,7 @@ font-weight: 700;
     line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
    
 }
 
@@ -149,6 +184,7 @@ font-weight: 700;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--brand-color-article-p);
+    
 }
 .main-central h2 {
         font-size: 36px;
