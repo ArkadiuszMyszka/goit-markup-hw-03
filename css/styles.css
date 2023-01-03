@@ -1,5 +1,5 @@
 :root {
-    --brand-color-background-overall: #E5E5E5;
+    --brand-color-background-overall: #FFFFFF;
     --brand-color-font-overall: #212121;
     --brand-color-hover: #2196F3;
     --brand-color-background: #FFFFFF;
@@ -30,11 +30,19 @@ body {
 h1 {
     margin: 0;
 }
+p {
+    margin: 0;
+}
+
 .container {
     
     width: 1200px;
     margin: 0 auto;
     }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .header-box{
     display: block;
     background-color: var(--brand-color-background);    
@@ -199,8 +207,9 @@ h1 {
 .button-mainpage-box{
     display: flex;
     box-sizing:border-box ;
-    margin-top: 30px;
-    padding-bottom: 200px;
+    margin-top: 130px;
+    
+    
     
 }
 .button-mainpage {
@@ -213,6 +222,16 @@ h1 {
         
        
         
+}
+.article-mainpage-box {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+.article-mainpage-box > .article-mainpage-list:not(:last-child) {
+    margin-right: 30px;
 }
 .article-mainpage h3 {
 font-weight: 700;
