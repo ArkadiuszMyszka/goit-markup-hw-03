@@ -25,6 +25,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background: var(--brand-color-background-overall);
     color:var(--brand-color-font-overall);
+    
+}
+h1 {
     margin: 0;
 }
 .container {
@@ -34,11 +37,12 @@ body {
     }
 .header-box{
     display: block;
-    background-color: var(--brand-color-background);
-   
-    
+    background-color: var(--brand-color-background);    
 }
-
+.main-top-box {
+    display: block;
+    background-color: var(--brand-color-background-main-top);
+}
 .header-main {
     background-color: var(--brand-color-background);
     display:flex;
@@ -152,6 +156,7 @@ body {
         letter-spacing: 0.03em;
         color: var(--brand-color-contact-footer);
 }
+
 .mail-footer {
         font-size: 14px;
         line-height: 1.1714;
@@ -159,14 +164,29 @@ body {
         letter-spacing: 0.03em;
         color: var(--brand-color-contact-footer);
 }
-/*
-.mail-footer:hover, .mail-footer:focus, .tel-footer:hover, .tel-footer:focus {
-color: var(--brand-color-hover);
-}*/
+
+.main-top-box {
+    display: block;
+    background-color: var(--brand-color-background-main-top);
+}
+
 .main-top-background {
         background-color: var(--brand-color-background-main-top);
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+}
+.text-mainpage-box {
+    display: flex;
+    padding-top: 200px;
+    width: 696px;
+    height: 120px;
+    margin-bottom: 30px;
 }
 .text-mainpage {
+        
         font-weight: 900;
         font-size: 44px;
         line-height: 1.364;
@@ -174,12 +194,25 @@ color: var(--brand-color-hover);
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--brand-color-main-top-text);
+        
+}
+.button-mainpage-box{
+    display: flex;
+    box-sizing:border-box ;
+    margin-top: 30px;
+    padding-bottom: 200px;
+    
 }
 .button-mainpage {
         cursor: pointer;
         background-color: var(--brand-color-hover);
         box-shadow: 0px 4px 4px var(--brand-color-main-button-boxshadow);
         border-radius: 4px;
+        width: 200px;
+        height: 50px;
+        
+       
+        
 }
 .article-mainpage h3 {
 font-weight: 700;
