@@ -27,7 +27,7 @@ body {
     color:var(--brand-color-font-overall);
     
 }
-h1 {
+h1, h2 {
     margin: 0;
 }
 p {
@@ -223,6 +223,13 @@ p {
        
         
 }
+.article-mainpage-container {
+    display: block;
+    background-color: var(--brand-color-background);
+}
+.article-mainpage{
+margin-bottom: 94px;
+}
 .article-mainpage-box {
     display: flex;
     list-style: none;
@@ -256,6 +263,14 @@ font-weight: 700;
         text-align: center;
         letter-spacing: 0.03em;
         
+}
+.main-central-img-box{
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+}
+.main-central-img-box > .main-central-img-list:not(:last-child) {
+margin-right: 30px;
 }
 .main-bottom {   
         background-color: var(--brand-color-main-bottom-background);
