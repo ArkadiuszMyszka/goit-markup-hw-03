@@ -20,6 +20,7 @@
     --brand-color-port-button-hover-boxshadow2: rgba(0, 0, 0, 0.08);
     --brand-color-port-button-hover-boxshadow3: rgba(0, 0, 0, 0.12);
     --brand-color-port-central-border:#EEEEEE;
+    --brand-color-header-border:#ECECEC
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -27,12 +28,10 @@ body {
     color:var(--brand-color-font-overall);
     
 }
-h1, h2 {
+h1, h2, h3, p {
     margin: 0;
 }
-p {
-    margin: 0;
-}
+
 
 .container {
     
@@ -57,6 +56,7 @@ p {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    border-bottom: 1px solid var(--brand-color-header-border);
     
 }
 .title-header {
@@ -219,7 +219,7 @@ p {
         border-radius: 4px;
         width: 200px;
         height: 50px;
-        
+        color: #FFFFFF;
        
         
 }
@@ -272,9 +272,37 @@ font-weight: 700;
 .main-central-img-box > .main-central-img-list:not(:last-child) {
 margin-right: 30px;
 }
+.main-bottom-container {
+    display: block;
+    background-color: var(--brand-color-main-bottom-background);
+}
 .main-bottom {   
         background-color: var(--brand-color-main-bottom-background);
 }
+.main-bottom-box {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.main-bottom-figure {
+    margin: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.main-bottom-box > .main-bottom-list:not(:last-child) {
+    margin-right: 30px;
+}
+.main-bottom-list {
+    display: flex;
+    background-color: var(--brand-color-background-overall);
+}
+.main-bottom-list-figcaption{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
 .main-bottom h2 {
 
 font-size: 36px;
@@ -284,7 +312,7 @@ letter-spacing: 0.03em;
 
 }
 .main-bottom h3 {
-        
+        margin-bottom: 10px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.188;
@@ -299,9 +327,10 @@ letter-spacing: 0.03em;
         letter-spacing: 0.03em;
             color: var(--brand-color-article-p);
 }
-.main-bottom li {
+
+/*.main-bottom li {
     background-color: var(--brand-color-background);
-}
+}*/
 .button-portfolio button {
     cursor: pointer;
     background-color: var(--brand-color-port-button-background);
