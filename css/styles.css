@@ -29,14 +29,14 @@ body {
     
 }
 h1, h2, h3, p {
-    margin: 0;
+    margin: 0px;
 }
 
 
 .container {
     
     width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
     }
 .section {
     padding-top: 94px;
@@ -332,6 +332,15 @@ letter-spacing: 0.03em;
 /*.main-bottom li {
     background-color: var(--brand-color-background);
 }*/
+.portfolio-button-box{
+    margin-bottom: 50px;
+}
+.button-portfolio {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
 .button-portfolio button {
     cursor: pointer;
     background-color: var(--brand-color-port-button-background);
@@ -341,7 +350,15 @@ letter-spacing: 0.03em;
         line-height: 1.625;
         text-align: center;
         letter-spacing: 0.03em;
+        border-color: var(--brand-color-port-button-background);
        
+}
+ .button-portfolio > .portfolio-button-list:not(:last-child) {
+    margin-right: 8px;
+}
+.portfolio-button-list-box {
+    padding: 8px 22px;
+    margin: 0px;
 }
 .button-portfolio button:hover,.button-portfolio button:focus {
     background-color: var(--brand-color-hover);
