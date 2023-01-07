@@ -5,6 +5,7 @@
     --brand-color-background: #FFFFFF;
     --brand-color-titleleft: #2196F3;
     --brand-color-titleright: #000;
+    --brand-color-titleright-footer: #FFFFFF;
     --brand-color-contact-header: #757575;
     --brand-color-address-footer: #FFFFFF;
     --brand-color-background-footer: #2F303A;
@@ -94,6 +95,13 @@ h1, h2, h3, p {
         font-weight: 400;
         line-height: 1.383;
         letter-spacing: 3%;}
+.title-side-right-footer {
+        font-family: 'Raleway', sans-serif;
+        color: var(--brand-color-titleright-footer);
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.383;
+        letter-spacing: 3%;}
 .title-header a {
         font-weight: 500;
         font-size: 14px;
@@ -150,6 +158,7 @@ h1, h2, h3, p {
     list-style: none;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin: 0px;
 }
 .footer-link-name {
     margin-bottom: 20px;
@@ -237,11 +246,10 @@ margin-bottom: 94px;
     padding: 0px;
     margin: 0px;
     justify-content: center;
+    gap: 30px;
 
 }
-.article-mainpage-box > .article-mainpage-list:not(:last-child) {
-    margin-right: 30px;
-}
+
 .article-mainpage h3 {
 font-weight: 700;
     font-size: 14px;
@@ -276,10 +284,9 @@ font-weight: 700;
     margin-top: 50px;
     padding:0px;
     justify-content: center;
+    gap: 30px;
 }
-.main-central-img-box > .main-central-img-list:not(:last-child) {
-margin-right: 30px;
-}
+
 .main-bottom-container {
     display: block;
     background-color: var(--brand-color-main-bottom-background);
@@ -292,6 +299,7 @@ margin-right: 30px;
     list-style: none;
     justify-content: center;
     margin-top: 50px;
+    gap: 30px;
     
 }
 .main-bottom-figure {
@@ -299,9 +307,7 @@ margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.main-bottom-box > .main-bottom-list:not(:last-child) {
-    margin-right: 30px;
-}
+
 .main-bottom-list {
     display: flex;
     background-color: var(--brand-color-background-overall);
@@ -346,23 +352,23 @@ letter-spacing: 0.03em;
     display: flex;
     list-style: none;
     justify-content: center;
+    gap: 8px;
 
 }
 .button-portfolio button {
     cursor: pointer;
     background-color: var(--brand-color-port-button-background);
-    border-radius: 4px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.625;
-        text-align: center;
-        letter-spacing: 0.03em;
-        border-color: var(--brand-color-port-button-background);
+    border:none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    
        
 }
- .button-portfolio > .portfolio-button-list:not(:last-child) {
-    margin-right: 8px;
-}
+
 .portfolio-button-list-box {
     padding: 8px 22px;
     margin: 0px;
@@ -388,11 +394,15 @@ flex-basis: calc((100% - 2 * 30px) / 3);
 max-width: 370px;
 }
 .portfolio-central figure {
-    margin: 0;
-    border-bottom: 1px solid #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
     }
 .portfolio-central figcaption {
     padding:20px 24px;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }.portfolio-central li {
     background-color: var(--brand-color-background);
     border-bottom: 1px solid var(--brand-color-port-central-border);
